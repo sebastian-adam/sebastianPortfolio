@@ -1,6 +1,7 @@
 
 body {
   font-family: Courier, serif;
+
 }
 
 /* NAVBAR START */
@@ -42,6 +43,15 @@ body {
     background-color: #D5D5D5;
 }
 
+.navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu, .navbar-default .dropdown-menu {
+    background-color: black;
+    color: white;
+  }
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+  color: black;
+}
+
 /* NAVBAR END */
 
 /* CAROUSEL START */
@@ -60,7 +70,7 @@ background-color:	rgba(225,247,213,0.3);
   border-width: thin;
 }
 .carousel-indicators li {
-	border-color: #f1cbff;
+	border-color: lightgrey;
   border-width: thick;
 }
 

@@ -9,3 +9,4 @@ This page hosts all of my current web development work. It also shares a little 
 
 * Contact Email
 * A Photograph I Made
+* Link to My Squarespace

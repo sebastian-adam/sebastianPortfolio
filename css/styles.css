@@ -11,6 +11,23 @@ h2 {
     font-style: italic;
 }
 
+img {
+    background: transparent;
+}
+
+.footer {
+    display: absolute;
+    padding: 1%;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: left;
+    background-color: rgba(0,0,0,.3);
+    z-index: 1;
+    width: 45%;
+    margin-bottom: 5vh;
+}
+
 p {
     text-align: justify;
     padding: 10%;
@@ -47,6 +64,7 @@ p a:hover {
     height: auto;
     margin: auto;
     border-top: 1px solid;
+    display:block;
 }
 
 .column2 h2 {
@@ -57,6 +75,7 @@ p a:hover {
 
 .yuba {
     padding: 10%;
+    z-index: 0;
 }
 
 @media (max-width: 767px) {
@@ -67,10 +86,21 @@ p a:hover {
     width: 100%;
     padding-top: 2vh;
     }
+
+  .footer {
+    margin-top: 60vh;
+    width:90%;
+    }
   .columns {
     display: block;
     }
+}
 
+@media (max-width: 600px) {
+  .footer {
+    margin-top: 50vh;
+    width:90%;
+    }
 }
 
 /* GENERAL END */

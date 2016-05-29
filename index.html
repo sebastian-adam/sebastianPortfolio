@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sebastian's Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+<!-- navbar start -->
+
+    <div class="navbar navbar-fixed-top navbar-default">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Sebastian Portfolio</a>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Live Sites</a></li>
+
+              <li class="dropdown">
+                  <a data-toggle="dropdown" data-target="#">My GitHub Projects<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Guide to Portland</a></li>
+                    <li><a href="#">My Pets</a></li>
+                    <li><a href="#">My Favorite Things</a></li>
+                    <li><a href="#">San Juan Islands</a></li>
+                  </ul>
+              </li>
+              <li><a href="mailto:sprokuski@gmail.com">Contact</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+<!-- navbar end -->
+
+<!-- carousel start-->
+
+    <div id="myCarousel" class="carousel jumbotron">
+      <div class="container">
+        <ol class="carousel-indicators">
+          <li  data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li  data-target="#myCarousel" data-slide-to="1"></li>
+          <li  data-target="#myCarousel" data-slide-to="2"></li>
+          <li  data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active img-back">
+            <div class="wrapper cupcakegif">
+              <img class="img-responsive" src="img/cupcake.gif" alt="Cupcake heading gif"/>
+            </div>
+            <img class="img-responsive" src="img/cupcake.png" alt="Cupcake site screenshot"/>
+          </div>
+          <div class="item img-back">
+            <div class="wrapper sheltergif">
+              <img class="img-responsive" src="img/shelter.gif" alt="Animal shelter heading gif"/>
+            </div>
+            <img class="img-responsive" src="img/shelter.png" alt="Animal Shelter site screenshot"/>
+          </div>
+          <div class="item img-back">
+            <div class="wrapper berlingif">
+              <img class="img-responsive" src="img/berlin.gif" alt="Berlin heading gif"/>
+            </div>
+            <img class="img-responsive" src="img/berlin.png" alt="Berlin site screenshot"/>
+          </div>
+          <div class="item img-back">
+            <div class="wrapper biebergif">
+              <img class="img-responsive" src="img/bieber.gif" alt="Beiber heading gif"/>
+            </div>
+            <img class="img-responsive" src="img/bieber.png" alt="Bieber site screenshot"/>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" data-target="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+        </a>
+      <a class="right carousel-control" data-target="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+        </a>
+    </div>
+
+<!-- carousel end-->
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+
+body {
+  font-family: Courier, serif;
+}
+
+/* NAVBAR START */
+
+/* general */
+.navbar-default {
+    background-color: black;
+    opacity: .8;
+    border-color: black;
+}
+/* sebastian portfolio */
+.navbar-default .navbar-brand {
+    color: black;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: 	white;
+    background-color: black;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    font-weight: bold;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+
+/* NAVBAR END */
+
+/* CAROUSEL START */
+
+.carousel {
+background-color:	rgba(225,247,213,0.3);
+}
+
+.carousel-indicators {
+	bottom: 1vh;
+  opacity: .8;
+
+}
+.carousel-indicators .active {
+	background-color: black;
+  border-width: thin;
+}
+.carousel-indicators li {
+	border-color: #f1cbff;
+  border-width: thick;
+}
+
+.carousel-inner div:nth-child(2+2n) img {
+  height: 60vh;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.wrapper {
+  height: 15vh;
+  display: flex;
+}
+
+.carousel-inner img:first-child {
+  padding: 4% 15% 2%;
+}
+
+@media (max-width: 767px) {
+  .carousel-inner img:first-child {
+    padding: 10% 5% 5%;
+  }
+}
+
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+    font-size: 8vh;
+    margin: 2vh -5vw;
+}
+
+@media (max-width: 767px) {
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+      font-size: 5vh;
+      margin: 2vh -7vw;
+  }
+}
+
+/* CAROUSEL END */

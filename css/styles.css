@@ -1,8 +1,81 @@
+/* GENERAL START */
+
 
 body {
-  font-family: Courier, serif;
+    font-family: Courier, serif;
+}
+
+h2 {
+    font-size: 140%;
+    margin: 2vh 5vw -1vh;
+    font-style: italic;
+}
+
+p {
+    text-align: justify;
+    padding: 10%;
+    font-size: 100%;
+}
+
+p a {
+    color: lightblue;
+}
+
+p a:hover {
+    color: violet;
+    font-weight: bold;
+}
+
+.columns {
+    display: flex;
+    height: 18vh;
+    margin: -2.4vh auto;
+    text-align: center;
+    background-color: rgba(250,247,240,.3);
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    border: 1px solid;
+}
+
+.column2 {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    border-top: 1px solid;
+}
+
+.column2 h2 {
+    font-size: 100%;
+    margin-bottom: -1vh;
+    margin-top: 2.5vh;
+}
+
+.yuba {
+    padding: 10%;
+}
+
+@media (max-width: 767px) {
+  .column1,
+  .column2 {
+    float: none;
+    display: block;
+    width: 100%;
+    padding-top: 2vh;
+    }
+  .columns {
+    display: block;
+    }
 
 }
+
+/* GENERAL END */
+
+
 
 /* NAVBAR START */
 
@@ -49,44 +122,53 @@ body {
   }
 
 .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
-  color: black;
+    color: black;
 }
 
 /* NAVBAR END */
 
+
+
 /* CAROUSEL START */
 
 .carousel {
-background-color:	rgba(225,247,213,0.3);
+    background-color:	rgba(250,247,240,0.3);
 }
 
 .carousel-indicators {
-	bottom: 1vh;
-  opacity: .8;
-
+	   bottom: 1vh;
+     opacity: .8;
 }
+
+@media (max-width: 767px) {
+  .carousel-indicators {
+    bottom: 0.3vh;
+    opacity: .8;
+  }
+}
+
 .carousel-indicators .active {
-	background-color: black;
-  border-width: thin;
+	  background-color: black;
+    border-width: thin;
 }
 .carousel-indicators li {
-	border-color: lightgrey;
-  border-width: thick;
+	  border-color: lightgrey;
+    border-width: thick;
 }
 
 .carousel-inner div:nth-child(2+2n) img {
-  height: 60vh;
-  margin: auto;
-  padding-top: 5%;
+    height: 60vh;
+    margin: auto;
+    padding-top: 5%;
 }
 
 .wrapper {
-  height: 15vh;
-  display: flex;
+    height: 15vh;
+    display: flex;
 }
 
 .carousel-inner img:first-child {
-  padding: 4% 15% 2%;
+    padding: 4% 15% 2%;
 }
 
 @media (max-width: 767px) {
@@ -95,8 +177,8 @@ background-color:	rgba(225,247,213,0.3);
   }
 }
 
-.carousel-control .icon-prev,
-.carousel-control .icon-next {
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
     font-size: 8vh;
     margin: 2vh -5vw;
 }

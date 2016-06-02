@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
+
 <!-- navbar start -->
 
     <div class="navbar navbar-fixed-top navbar-default">
@@ -21,15 +22,14 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="#">Live Sites</a></li>
-
               <li class="dropdown">
-                  <a data-toggle="dropdown" data-target="#">My GitHub Projects<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="https://github.com/sprokusk/Portland">Guide to Portland</a></li>
-                    <li><a href="https://github.com/sprokusk/PETS">My Pets</a></li>
-                    <li><a href="https://github.com/sprokusk/my-first-webpage">My Favorite Things</a></li>
-                    <li><a href="https://github.com/sprokusk/sanjuan">San Juan Islands</a></li>
-                  </ul>
+                <a data-toggle="dropdown" data-target="#">My GitHub Projects<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="https://github.com/sprokusk/Portland">Guide to Portland</a></li>
+                  <li><a href="https://github.com/sprokusk/PETS">My Pets</a></li>
+                  <li><a href="https://github.com/sprokusk/my-first-webpage">My Favorite Things</a></li>
+                  <li><a href="https://github.com/sprokusk/sanjuan">San Juan Islands</a></li>
+                </ul>
               </li>
               <li><a href="mailto:sprokuski@gmail.com">Contact</a></li>
             </ul>
@@ -44,10 +44,10 @@
     <div id="myCarousel" class="carousel jumbotron">
       <div class="container">
         <ol class="carousel-indicators">
-          <li  data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li  data-target="#myCarousel" data-slide-to="1"></li>
-          <li  data-target="#myCarousel" data-slide-to="2"></li>
-          <li  data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
           <div class="item active img-back">
@@ -78,21 +78,21 @@
       </div>
       <a class="left carousel-control" data-target="#myCarousel" data-slide="prev">
         <span class="icon-prev"></span>
-        </a>
+      </a>
       <a class="right carousel-control" data-target="#myCarousel" data-slide="next">
         <span class="icon-next"></span>
-        </a>
+      </a>
     </div>
 
 <!-- carousel end-->
 
 <!-- main content start -->
-    <div class=columns>
-      <div class="column1">
+    <div class="row">
+      <div class="col-md-6">
         <h2>About me</h2>
         <p>I live in Portland, Oregon with my girlfriend Tiffany and our two kittens, Bunny and Meatball. In addition to learning to code, I currently study photography under local fashion photographer Cully Wright. One day, I want my work to be displayed in museums across the world. Until then, you can find my photographs <a href="http://jabashchin.com">here</a>.</p>
       </div>
-      <div class="column2">
+      <div class="col-md-6">
         <h2>My Recent Favorite Photograph</h2>
         <img class="yuba img-responsive" src="img/yubariver.jpg" alt="photograph from Yuba River"/>
       </div>
@@ -100,14 +100,20 @@
 
 <!-- main content end -->
 
+<!-- sticky footer start -->
+
+    <footer>
+      <div class="footer">
+      <h3>
+        <strong>NOTE</strong>: All of the sites showcased here and linked here-in use HTML and CSS. This page and "Berlin Vacation" also apply a Bootstrap framework.
+      </h3>
+      </div>
+    </footer>
+
+
+<!-- sticky footer end -->
+
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
-  <footer>
-    <div class="footer">
-    <h3>
-      <strong>NOTE</strong>: All of the sites showcased here and linked here-in use HTML and CSS. This page and "Berlin Vacation" also apply a Bootstrap framework.
-    </h3>
-    </div>
-  </footer>
 </html>

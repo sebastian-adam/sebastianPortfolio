@@ -1,6 +1,5 @@
 /* GENERAL START */
 
-
 body {
     font-family: Courier, serif;
 }
@@ -15,17 +14,21 @@ img {
     background: transparent;
 }
 
-.footer {
-    display: absolute;
-    padding: 1%;
-    margin-top: 10vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    text-align: left;
-    background-color: rgba(0,0,0,.3);
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(250,247,240,1);
+    padding: 0 30px;
+    margin: auto;
+    font-size: 12px;
     z-index: 1;
-    width: 45%;
-    margin-bottom: 5vh;
+}
+
+footer h3 {
+    padding: auto;
+    font-size: 20px;
 }
 
 p {
@@ -76,9 +79,10 @@ p a:hover {
 .yuba {
     padding: 10%;
     z-index: 0;
+    margin-bottom: 80px;
 }
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .column1,
   .column2 {
     float: none;
@@ -95,12 +99,13 @@ p a:hover {
     display: block;
     }
 }
+*/
 
 @media (max-width: 600px) {
-  .footer {
-    margin-top: 50vh;
-    width:90%;
-    }
+
+  footer h3 {
+    font-size: 12px;
+  }
 }
 
 /* GENERAL END */
@@ -168,6 +173,7 @@ p a:hover {
 .carousel-indicators {
 	   bottom: 1vh;
      opacity: .8;
+     z-index: 0;
 }
 
 @media (max-width: 767px) {
